@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arimo', sans-serif;
+    background-color: #2e3c56;
+    padding: 30px;
+    margin: 0;
+  }
+  table {
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  th, td {
+    text-align: center;
+    padding: 20px;
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    }
+  th {
+    font-weight: bold;
+    background-color: #f4f4f4;
+  }
+  thead th:first-child {
+    border-bottom: none;
+  }
+  .plan-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0;
+  }
+  .standard { background-color: #a5d608; color: #000; }
+  .ultimate { background-color: #ed2c2c; color: #fff; }
+  .premium { background-color: #006f72; color: #fff; }
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  .btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  .btn-contact { background: #333; }
+  .btn-standard { background: #a5d608; color: #000; }
+  .btn-ultimate { background: #ed2c2c; }
+  .btn-premium { background: #006f72; }
+  .feature i {
+    margin-right: 8px;
+  }
+  .feature-gray {
+    background-color: #e3e3e3; 
+  }
+  .price-block {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #444;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 4px;
+  }
+  .price-block .currency {
+    font-size: 28px;
+  }
+  .price-block .main {
+    font-size: 40px;
+  }
+  .price-block .cents-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2px;
+    line-height: 1;
+  }
+  .price-block .cents {
+    font-size: 18px;
+  }
+  .price-block .per-month {
+    font-size: 12px;
+    font-weight: normal;
+    color: #666;
+    margin-left: 2px;
+  }
